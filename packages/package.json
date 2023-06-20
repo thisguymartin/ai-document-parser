@@ -1,0 +1,21 @@
+{
+  "name": "@ai-document-parser/packages",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.115",
+    "@types/node": "^20.2.0",
+    "sst": "^2.8.26",
+    "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "fetch-blob": "^4.0.0",
+    "langchain": "^0.0.78",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.21.4"
+  }
+}

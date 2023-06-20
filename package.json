@@ -1,14 +1,14 @@
 {
   "name": "ai-document-parser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "sst dev",
-    "build": "sst build",
-    "deploy": "sst deploy",
-    "remove": "sst remove",
-    "console": "sst console",
+    "start": "AWS_PROFILE=personal doppler run sst dev",
+    "build": "AWS_PROFILE=personal doppler run sst build",
+    "deploy": "AWS_PROFILE=personal doppler run sst deploy",
+    "cleanup": "AWS_PROFILE=personal sst remove",
+    "console": "AWS_PROFILE=personal sst console",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

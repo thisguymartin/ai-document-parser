@@ -1,0 +1,3 @@
+setup:
+  project: ai
+  config: prd
